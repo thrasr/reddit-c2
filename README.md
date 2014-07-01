@@ -1,10 +1,10 @@
 ##Overview
 
-This is a prototype concept for a command and control (CC) system with communication through reddit. This communication should be encrypted and anonymous.  
+This is a proof of concept for a command and control (CC) system with communication through reddit. This communication should be encrypted and anonymous.  
 
-The server runs and has an account for posting to reddit.  There should be a dedicated subreddit that only this account has posting privledges to.  The account may also need to have several successful posts before being allowed to post at certain intervals.  Some initial manual posts may be required before the account has enough privledges to post successfully.
+The server has an account for posting to reddit.  There should be a dedicated subreddit that only this account has posting privledges to.  The account may also need to have a number of successful posts before being allowed to post at certain intervals.  Some initial manual posts may be required before the account has enough privledges to post successfully.
 
-The client monitors the subreddit and listens for commands (posts).  Clients should decipher each post and determine what action to take.  Actions include ignoring/dropping to command (if not targeted at the client) or performing a predetermined action in accordance to the command posted.
+The client monitors the subreddit and listens for commands (posts).  Clients should decrypt each post and determine what action to take.  Actions include ignoring/dropping the command (but recording the command to prevent reading it each time) or performing a predetermined action in accordance to the command/payload posted.
 
 
 ##Setup
