@@ -1,6 +1,6 @@
 ##Overview
 
-This is a proof of concept for a command and control (CC) system with communication through reddit. This communication should be encrypted and anonymous.  
+This is a proof of concept for a command and control (C2) system with communication through reddit. This communication should be encrypted and anonymous.  
 
 The server has an account for posting to reddit.  There should be a dedicated subreddit that only this account has posting privledges to.  The account may also need to have a number of successful posts before being allowed to post at certain intervals.  Some initial manual posts may be required before the account has enough privledges to post successfully.
 
